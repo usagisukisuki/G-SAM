@@ -1,2 +1,5 @@
 # G-SAM
-Generalized Segment Anything Model
+This repo is the official implementation for: Generalized Segment Anything Model
+
+## Highlights
+
