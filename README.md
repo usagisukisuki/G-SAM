@@ -1,5 +1,5 @@
 # Generalized SAM
-This repo is the official implementation for *Generalized SAM: Efficient Fine-Tuning of SAM for Variable Input Image Sizes*, accepted by ECCV2024 Workshop *Computational Aspects of Deep Learning (CADL)*.
+This repo is the official implementation for *Generalized SAM: Efficient Fine-Tuning of SAM for Variable Input Image Sizes*, accepted by ECCV2024 Workshop [*Computational Aspects of Deep Learning (CADL)*](https://sites.google.com/nvidia.com/cadl2024).
 
 <div align="center">
   <img src="figs/img1.png" width="80%">
