@@ -105,6 +105,16 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'MobileSAM'
 python3 test.py --gpu 0 --dataset 'ISBI2012' --out result_sam --modelname 'SAM' 
 ```
 
+
+## Citation
+```
+@article{kato2024generalized,
+  title={Generalized SAM: Efficient Fine-Tuning of SAM for Variable Input Image Sizes},
+  author={Kato, Sota and Mitsuoka, Hinako and Hotta, Kazuhiro},
+  journal={arXiv preprint arXiv:2408.12406},
+  year={2024}
+}
+```
 ```
 models
 ├── Pretrained_model
