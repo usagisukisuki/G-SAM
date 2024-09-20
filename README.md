@@ -24,6 +24,13 @@ We use checkpoint of SAM in [vit_b](https://github.com/facebookresearch/segment-
 Additionally, we also use checkpoint of MobileSAM.
 Please download from [SAM](https://github.com/facebookresearch/segment-anything) and [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), and extract them under "models/Pretrained_model".
 
+```
+models
+├── Pretrained_model
+    ├── sam_vit_b_01ec64.pth
+    ├── mobile_sam.pt
+```
+
 ## Dataset
 As examples, we can evaluate two biological segmentation datasets: ISBI2012 (2 class) and ssTEM (5 class) in this repo.
 
@@ -114,10 +121,4 @@ python3 test.py --gpu 0 --dataset 'ISBI2012' --out result_sam --modelname 'SAM'
   journal={arXiv preprint arXiv:2408.12406},
   year={2024}
 }
-```
-```
-models
-├── Pretrained_model
-    ├── sam_vit_b_01ec64.pth
-    ├── mobile_sam.pt
 ```
