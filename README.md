@@ -17,3 +17,12 @@ Following [Segment Anything](https://github.com/facebookresearch/segment-anythin
    ```
 
 ## Checkpoints
+We use checkpoint of SAM in [vit_b](https://github.com/facebookresearch/segment-anything) version.
+Additionally, we also use checkpoint of MobileSAM.
+Please download from [SAM](https://github.com/facebookresearch/segment-anything) and [MobileSAM](https://github.com/ChaoningZhang/MobileSAM), and extract them under "models/Pretrained_model".
+```
+models
+├── Pretrained_model
+    ├── sam_vit_b_01ec64.pth
+    ├── mobile_sam.pt
+```
