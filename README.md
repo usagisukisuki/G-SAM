@@ -1,6 +1,10 @@
 # Generalized SAM
 This repo is the official implementation for *Generalized SAM: Efficient Fine-Tuning of SAM for Variable Input Image Sizes*, accepted by ECCV2024 Workshop *Computational Aspects of Deep Learning (CADL)*.
 
+<div align="center">
+  <img src="figs/img1.png" width="80%">
+</div>
+
 
 ## Installation
 Following [Segment Anything](https://github.com/facebookresearch/segment-anything), `python=3.8.16`, `pytorch=1.8.0`, and `torchvision=0.9.0` are used in GSAM.
