@@ -1,4 +1,5 @@
 # Generalized SAM (ECCV2024 Workshop)
+[![arXiv](https://img.shields.io/badge/arXiv-<INDEX>-<COLOR>.svg)](https://arxiv.org/pdf/2408.12406)
 This repo is the official implementation for *Generalized SAM: Efficient Fine-Tuning of SAM for Variable Input Image Sizes*, accepted by ECCV2024 Workshop [*Computational Aspects of Deep Learning (CADL)*](https://sites.google.com/nvidia.com/cadl2024).
 
 <div align="center">
