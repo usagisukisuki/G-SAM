@@ -9,6 +9,10 @@ This repo is the official implementation for *Generalized SAM: Efficient Fine-Tu
   <img src="figs/img1.png" width="60%"> <img src="figs/img2.png" width="30%">
 </div>
 
+- Training using random cropping: Our Generalized SAM (GSAM) can cope with variable input image sizes, allowing random cropping to be used the first time during fine-tuning for SAM.
+- Multi-scalce AdaptFormer: GSAM can use multi-scale features during fine-tuning for SAM.
+- Low computational cost of training: compared to the conventional SAM fine-tuning methods, and achieved comparable or higher segmentation accuracy.
+
 
 ## Installation
 Following [Segment Anything](https://github.com/facebookresearch/segment-anything), `python=3.8.16`, `pytorch=1.8.0`, and `torchvision=0.9.0` are used in GSAM.
