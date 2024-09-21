@@ -1,4 +1,4 @@
-# Generalized SAM (ECCV2024 Workshop)
+# Generalized SAM: Efficient Fine-Tuning of SAM for Variable Input Image Sizes (ECCV2024 Workshop)
 [![arXiv](https://img.shields.io/badge/arXiv-2408.12406-b31b1b.svg)](https://arxiv.org/pdf/2408.12406)
 
 
