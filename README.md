@@ -12,7 +12,7 @@ This repo is the official implementation for *Generalized SAM* accepted by ECCV2
 
 - **Training using random cropping**: Our Generalized SAM (GSAM) can cope with variable input image sizes, allowing random cropping to be used the first time during fine-tuning for SAM.
 - **Multi-scalce AdaptFormer**: GSAM can use multi-scale features during fine-tuning for SAM.
-- **Low computational cost of training**: compared to the conventional SAM fine-tuning methods, and achieved comparable or higher segmentation accuracy.
+- **Low computational cost of training**: compared to the conventional SAM fine-tuning methods, GSAM can significantly reduce the computational training cost and GPU memories.
 
 
 ## Installation
