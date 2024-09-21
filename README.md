@@ -6,7 +6,7 @@ This repo is the official implementation for *Generalized SAM: Efficient Fine-Tu
 
 ## Highlights
 <div align="center">
-  <img src="figs/img1.png" width="80%"><img src="figs/img1.png" width="80%">
+  <img src="figs/img1.png" width="40%"> <img src="figs/img1.png" width="40%">
 </div>
 
 
