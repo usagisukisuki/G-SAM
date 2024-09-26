@@ -92,13 +92,13 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
 
 ## Results
-| Method | CamVid | M-Building | ISBI | Kvasior-SEG | Synapse | Cityscapes| Trans10k 
-| SAM | ---: | ---: | ---: | ---: | ---: | ---: | ---: 
-| LoRA | TD | TD | TD | TD | TD | TD | TD 
-| ConvLoRA | TD | TD | TD | TD | TD | TD | TD 
-| AdaptFormer | TD | TD | TD | TD | TD | TD | TD 
-| SAMUS | TD | TD | TD | TD | TD | TD | TD 
-| GSAM | TD | TD | TD | TD | TD | TD | TD 
+| Method | CamVid | M-Building | ISBI | Kvasior-SEG | Synapse | Cityscapes| Trans10k |
+| SAM | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| LoRA | TD | TD | TD | TD | TD | TD | TD |
+| ConvLoRA | TD | TD | TD | TD | TD | TD | TD | 
+| AdaptFormer | TD | TD | TD | TD | TD | TD | TD | 
+| SAMUS | TD | TD | TD | TD | TD | TD | TD |
+| GSAM | TD | TD | TD | TD | TD | TD | TD |
 
 ## Citation
 ```
