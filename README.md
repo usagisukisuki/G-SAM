@@ -92,6 +92,7 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
 
 ## Results
+We assessed different types of image data from various domains with varying input image sizes: in-vehicle images, satellite images, microscopic images, endoscopic images, CT images, and transparent object images.
 |Method|CamVid|M-Building|ISBI|Kvasior-SEG|Synapse|Cityscapes|Trans10k|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |SAM|58.27|67.59|72.15|75.94|40.61|57.15|83.37|
@@ -101,7 +102,7 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 |SAMUS|48.42|49.87|78.64|88.28|20.66|48.61|87.18|
 |GSAM|67.21|80.69|80.53|87.83|72.78|74.10|87.08|
 
-re
+And we comparison of MACs and segmentation accuracy for each method on the ISBI2012 dataset.
 |Method|MACs(G)|mIoU|
 |:---:|:---:|:---:|
 |SAM|371.98|72.15|
