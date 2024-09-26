@@ -39,6 +39,20 @@ models
 ```
 
 ## Dataset
+Step 1 : Please download from [[CamVid]](https://www.kaggle.com/datasets/carlolepelaars/camvid), [[M-Building]](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset), [[ISBI2012]](https://github.com/hoangp/isbi-datasets), [[Kvasir-SEG]](https://www.kaggle.com/datasets/debeshjha1/kvasirseg), [[Synapse]](https://www.synapse.org/Synapse:syn3193805/wiki/89480), [[Cityscapes]](https://www.cityscapes-dataset.com/), [[Trans10k]](https://github.com/xieenze/Segment_Transparent_Objects). 
+Step 2 : please extract them under "Dataset", and make them look like this:
+```
+Dataset
+├── CamVid
+├── M-building
+├── ISBI2012
+├── Kvasir
+├── Synapse
+├── Citycapes
+├── Trans10k
+
+```
+
 
 ## Fine tuning on SAM
 ### Binary segmentation (ISBI2012)
