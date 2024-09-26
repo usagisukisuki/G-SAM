@@ -40,6 +40,7 @@ models
 
 ## Dataset
 Step 1 : Please download from [[CamVid]](https://www.kaggle.com/datasets/carlolepelaars/camvid), [[M-Building]](https://www.kaggle.com/datasets/balraj98/massachusetts-buildings-dataset), [[ISBI2012]](https://github.com/hoangp/isbi-datasets), [[Kvasir-SEG]](https://www.kaggle.com/datasets/debeshjha1/kvasirseg), [[Synapse]](https://www.synapse.org/Synapse:syn3193805/wiki/89480), [[Cityscapes]](https://www.cityscapes-dataset.com/), [[Trans10k]](https://github.com/xieenze/Segment_Transparent_Objects). 
+
 Step 2 : please extract them under "Dataset", and make them look like this:
 ```
 Dataset
@@ -56,7 +57,7 @@ Dataset
 
 ## Fine tuning on SAM
 ### Binary segmentation (ISBI2012)
-If we prepared ISBI2012 dataset, we can directly run the following code to train the model with single GPU.
+If we prepared the binary segmentation dataset (e.g. ISBI2012), we can directly run the following code to train the model with single GPU.
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --out result_sam --modelname 'SAM' --batchsize 8
 ```
@@ -65,10 +66,10 @@ If we want to utilize multi GPUs, we can directly run the following code.
 CUDA_VISIBLE_DEVICES=0,1 python3 train.py --dataset 'ISBI2012' --out result_sam --modelname 'SAM' --batchsize 8 --multi
 ```
 
-### Multi-class segmentation (ssTEM)
-If we prepared ssTEM dataset, we can directly run the following code to train the model with single GPU.
+### Multi-class segmentation
+If we prepared the multi-class segmentaiton dataset (e.g. Cityscapes), we can directly run the following code to train the model with single GPU.
 ```
-python3 train.py --gpu 0 --dataset 'ssTEM' --out result_sam --modelname 'SAM' --batchsize 8 --num_classes=5 --multimask_output=True
+python3 train.py --gpu 0 --dataset 'Cityscapes' --out result_sam --modelname 'SAM' --batchsize 8 --num_classes=19 --multimask_output=True
 ```
 
 ## Fine tuning on SAM with Anything
