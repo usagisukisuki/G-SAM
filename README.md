@@ -91,7 +91,11 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_AdaptFormer'
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
 
-
+## Results
+| TH 左寄せ | TH 中央寄せ | TH 右寄せ |
+| :--- | :---: | ---: |
+| TD | TD | TD |
+| TD | TD | TD |
 
 ## Citation
 ```
