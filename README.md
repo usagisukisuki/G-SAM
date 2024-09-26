@@ -101,6 +101,19 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 |SAMUS|48.42|49.87|78.64|88.28|20.66|48.61|87.18|
 |GSAM|67.21|80.69|80.53|87.83|72.78|74.10|87.08|
 
+re
+|Method|MACs(G)|mIoU|
+|:---:|:---:|:---:|
+|SAM|371.98|72.15|
+|LoRA|371.98|79.18|
+|ConvLoRA|511.45|79.87|
+|AdaptFormer|386.48|80.46|
+|SAMUS|145.87|78.64|
+|GSAM(size=256×256)|270.33|80.63|
+|GSAM(size=128×128)|74.07|80.53|
+|GSAM(size=64×64)|18.53|78.53|
+|GSAM(size=32×32)|7.42|71.45|
+
 ## Citation
 ```
 @article{kato2024generalized,
