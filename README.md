@@ -72,13 +72,12 @@ If we prepared the multi-class segmentaiton dataset (e.g. Cityscapes), we can di
 python3 train.py --gpu 0 --dataset 'Cityscapes' --out result_sam --modelname 'SAM' --batchsize 8 --num_classes=19 --multimask_output=True
 ```
 
-## Fine tuning on GSAM
+## Fine tuning on Generalised SAM
 We can try to use our GSAM.
 Please run the following code  to train the improved SAM.
 
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'GSAM'
-
 ```
 
 ## Fine tuning on SAM with Anything
