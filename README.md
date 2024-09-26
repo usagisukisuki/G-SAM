@@ -110,10 +110,10 @@ And we compared the MACs and segmentation accuracy (ISBI2012).
 |ConvLoRA|511.45|79.87|
 |AdaptFormer|386.48|80.46|
 |SAMUS|145.87|78.64|
-|GSAM(size=256×256)|270.33|**80.63**|
-|GSAM(size=128×128)|74.07|80.53|
-|GSAM(size=64×64)|18.53|78.53|
-|GSAM(size=32×32)|**7.42**|71.45|
+|GSAM(random crop=256×256)|270.33|**80.63**|
+|GSAM(random crop=128×128)|74.07|80.53|
+|GSAM(random crop=64×64)|18.53|78.53|
+|GSAM(random crop=32×32)|**7.42**|71.45|
 
 ## Citation
 ```
