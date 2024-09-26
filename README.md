@@ -102,7 +102,7 @@ We assessed different types of image data from various domains with varying inpu
 |SAMUS|48.42|49.87|78.64|88.28|20.66|48.61|87.18|
 |GSAM|67.21|80.69|80.53|87.83|72.78|74.10|87.08|
 
-And we comparison of MACs and segmentation accuracy for each method on the ISBI2012 dataset.
+And we compared the MACs and segmentation accuracy (ISBI2012).
 |Method|MACs(G)|mIoU|
 |:---:|:---:|:---:|
 |SAM|371.98|72.15|
