@@ -94,8 +94,12 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ## Results
 |Method|CamVid|M-Building|ISBI|Kvasior-SEG|Synapse|Cityscapes|Trans10k|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|Method|CamVid|M-Building|ISBI|Kvasior-SEG|Synapse|Cityscapes|Trans10k|
-
+|SAM|58.27|67.59|72.15|75.94|40.61|57.15|83.37|
+|LoRA|65.20|76.76|79.18|82.20|39.08|59.09|85.71|
+|ConvLoRA|66.96|77.32|79.87|85.20|43.41|62.43|86.47|
+|AdaptFormer|74.80|80.46|80.46|88.53|61.28|75.49|89.91|
+|SAMUS|48.42|49.87|78.64|88.28|20.66|48.61|87.18|
+|GSAM|67.21|80.69|80.53|87.83|72.78|74.10|87.08|
 
 ## Citation
 ```
