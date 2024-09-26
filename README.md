@@ -56,7 +56,7 @@ Dataset
 
 
 ## Fine tuning on SAM
-### Binary segmentation (ISBI2012)
+### Binary segmentation
 If we prepared the binary segmentation dataset (e.g. ISBI2012), we can directly run the following code to train the model with single GPU.
 ```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --out result_sam --modelname 'SAM' --batchsize 8
@@ -72,27 +72,23 @@ If we prepared the multi-class segmentaiton dataset (e.g. Cityscapes), we can di
 python3 train.py --gpu 0 --dataset 'Cityscapes' --out result_sam --modelname 'SAM' --batchsize 8 --num_classes=19 --multimask_output=True
 ```
 
+## Fine tuning on GSAM
+We can try to use our GSAM.
+Please run the following code  to train the improved SAM.
+
+```
+python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'GSAM'
+
+```
+
 ## Fine tuning on SAM with Anything
-We can try to use variour adaptation methods.
+We can also try to use variour adaptation methods.
 Please run the following code to train the improved SAM.
 
-### Fine tuning with LoRA [[paper]](https://arxiv.org/abs/2106.09685)
 ```
-python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_LoRA' 
-```
-
-### Fine tuning with ConvLoRA [[paper]](https://arxiv.org/abs/2401.17868)
-```
+python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_LoRA'
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_ConvLoRA'
-```
-
-### Fine tuning with AdaptFormer [[paper]](https://arxiv.org/abs/2205.13535)
-```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAM_AdaptFormer'
-```
-
-### Fine tuning with SAMUS [[paper]](https://arxiv.org/abs/2309.06824)
-```
 python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
 
