@@ -110,7 +110,7 @@ python3 train.py --gpu 0 --dataset 'ISBI2012' --modelname 'SAMUS'
 ```
 
 ## Results
-We assessed different types of image data from various domains with varying input image sizes: in-vehicle images, satellite images, microscopic images, endoscopic images, CT images, and transparent object images.
+We assessed different types of image data from various domains with varying input image sizes.(In-vehicle, Satellite, Microscopic, Medical, and Transparent object images...)
 |Method|CamVid|M-Building|ISBI|Kvasior-SEG|Synapse|Cityscapes|Trans10k|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |SAM|58.27|67.59|72.15|75.94|40.61|57.15|83.37|
