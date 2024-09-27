@@ -45,13 +45,31 @@ Step 2 : please extract them under "Dataset", and make them look like this:
 ```
 Dataset
 ├── CamVid
+      ├─ train
+      ├─ trainannot
+      ├─ ...
 ├── M-building
+      ├─ png
+          ├─ train
+          ├─ train_labels
+          ├─ ...
+      ├─ tiff
 ├── ISBI2012
+      ├─ Image
+      ├─ Label
 ├── Kvasir
+      ├─ datamodel
+            ├─ ...
 ├── Synapse
+      ├─ datamodel
+            ├─ ...
 ├── Citycapes
+      ├─ gtFine
+      ├─ leftImg8bit
 ├── Trans10k
-
+      ├─ train
+      ├─ test
+      ├─ val
 ```
 
 
