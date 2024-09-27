@@ -118,7 +118,7 @@ We assessed different types of image data from various domains with varying inpu
 |ConvLoRA|66.96|77.32|79.87|85.20|43.41|62.43|86.47|
 |AdaptFormer|**74.80**|80.46|80.46|88.53|61.28|**75.49**|**89.91**|
 |SAMUS|48.42|49.87|78.64|88.28|20.66|48.61|87.18|
-|GSAM|67.21|**80.69**|**80.53**|**87.83**|**72.78**|74.10|87.08|
+|GSAM|67.21|**80.69**|[[**80.53**]](https://drive.google.com/file/d/1H5sJyUQNtZ6ZHL_xcqLVaiCeR53yLqWS/view?usp=drive_link)|**87.83**|**72.78**|[[74.10]](https://drive.google.com/file/d/1FTvTPSTyT_tLC3_rmvljl-13wWLg5A7J/view?usp=drive_link)|[[87.08]](https://drive.google.com/file/d/1v4t-tvKOGWEHCzfspSf7U5MzeztOZ2t5/view?usp=drive_link)|
 
 And we compared the MACs and segmentation accuracy (ISBI2012).
 |Method|MACs(G)|mIoU|
