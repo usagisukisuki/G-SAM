@@ -1,6 +1,6 @@
 import torch
 import torchvision
-from .Mydataset import ISBICellDataloader, Drosophila_Dataloader, CamvidLoader, MassachusettsDataloader, PolypeDataset, SynapseDataset, ADE20KSegmentation, Cityscapse_Loader, TransSegmentation
+from .Mydataset import ISBICellDataloader, Drosophila_Dataloader, CamvidLoader, MassachusettsDataloader, PolypeDataset, SynapseDataset, Cityscapse_Loader, TransSegmentation
 import loader.utils as ut
 import os
 
