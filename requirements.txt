@@ -101,3 +101,6 @@ urllib3==1.26.16
 wcwidth==0.2.6
 Werkzeug==2.3.4
 zipp==3.15.0
+timm
+tqdm
+natsort
