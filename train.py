@@ -1,4 +1,4 @@
-#coding: utf-8
+ze#coding: utf-8
 import numpy as np
 import torch
 import torchvision
@@ -137,17 +137,17 @@ def test(epoch):
     
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Segment Anything Model')
+    parser = argparse.ArgumentParser(description='Generalized Segment Anything Model')
     parser.add_argument('--batchsize', type=int, default=8)
     parser.add_argument('--num_epochs',  type=int, default=200)
-    parser.add_argument('--dataset',  type=str, default='ISBI2012', help='ISBI2012 or ssTEM')
+    parser.add_argument('--dataset',  type=str, default='ISBI2012', help='ISBI2012, CamVid, ...')
     parser.add_argument('--datapath',  type=str, default='./Dataset/')
     parser.add_argument('--num_classes',  type=int, default=2)
     parser.add_argument('--multimask_output', type=bool, default=False)
     parser.add_argument('--out', type=str, default='result')
     parser.add_argument('--gpu', type=str, default=0)
     parser.add_argument('--seed', type=int, default=0)
-    parser.add_argument('--modelname', default='SAM', type=str, help='SAM, MobileSAM, SAM_LoRA, SAM_ConvLoRA, SAM_AdaptFormer, SAMUS...')
+    parser.add_argument('--modelname', default='SAM', type=str, help='SAM, SAM_LoRA, SAM_ConvLoRA, SAM_AdaptFormer, SAMUS, or GSAM')
     parser.add_argument('-encoder_input_size', type=int, default=256, help='the image size of the encoder input, 1024 in SAM and MSA, 512 in SAMed, 256 in SAMUS')
     parser.add_argument('-low_image_size', type=int, default=128, help='the image embedding size, 256 in SAM and MSA, 128 in SAMed and SAMUS')
     parser.add_argument('--vit_name', type=str, default='vit_b', help='select the vit model for the image encoder of sam')
